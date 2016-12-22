@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    render html: "Goodbye, world!"
+    render html: "My first ruby app!"
   end
 
 end
